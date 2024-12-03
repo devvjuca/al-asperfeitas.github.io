@@ -1,0 +1,62 @@
+body {
+    --bege: #805712;
+    --verde-escuro: rgb(13, 189, 0); 
+    --verde-claro:  #82ee6f;
+    font-family: 'Barlow', sans-serif;
+    height: 100px;
+    padding-top: 9rem;
+  }
+  
+  .btn-padrao{
+    background-color: var(--verde-claro);
+    color: rgb(129, 138, 35);
+  }
+  
+  .btn-padrao:hover{
+    background-color: var(--verde-escuro);
+    color: rgb(129, 138, 35);
+  }
+  
+  
+  
+  
+  
+  input[type="checkbox"] {
+    border: 2px solid var(--verde-claro); 
+    box-shadow: none;
+  }
+  
+  input[type="checkbox"]:checked,
+  input[type="checkbox"]:focus {
+    background-color: var(--verde-claro);
+    border-color: var(--verde-claro);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  
+  
+  .icones{
+    font-size: 2rem;
+    color: var(--verde-claro);
+  }
+  
+  [data-bs-theme="light"]{
+    color:rgb(4, 114, 0);
+    .nav-link, .card-body, .accordion, .offcanvas{
+      --bs-nav-link-color:rgb(102, 112, 15);
+      --bs-card-color:rgb(102, 112, 15);
+      --bs-accordion-color:rgb(102, 112, 15);
+      --bs-offcanvas-color:rgb(102, 112, 15);
+      }
+  }
+  
+  [data-bs-theme="dark"]{
+    color:rgb(4, 114, 0);
+    .nav-link, .card-body, .accordion, .offcanvas{
+      --bs-nav-link-color:rgb(102, 112, 15);
+      --bs-card-color:rgb(102, 112, 15);
+      --bs-accordion-color:rgb(102, 112, 15);
+      --bs-offcanvas-color:rgb(102, 112, 15);
+      }
+  }

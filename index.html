@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>AlçasPerfeitas</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body data-bs-theme="light">
+
+<!--Menu do Site-->
+<header>
+	<nav class="navbar-expand-lg navbar bg-body-tertiary fixed-top shadow">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/banner.png"alt="AlçasPerfeitas"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		  	</button>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/banner.png"></h5>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#inicio">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#historia">História</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#galeria">Galeria</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-bs-toggle="offcanvas" href="#exemplooffcanvas" role="button" aria-controls="offcanvasExample">Contato</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<i class="bi bi-whatsapp"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<div class="form-check form-switch">
+								<input class="form-check-input" type="checkbox" role="switch" id="modo-noturno">
+								<label class="form-check-label" for="modo-noturno">Modo Noturno</label><i class="bi bi-brightness-high"></i>
+							</div>
+						</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+	  </div>
+	</nav>
+
+</header>
+<main>
+<article class="container-fluid  mt-2 rounded-4">
+	<div class="row m-1 p-3 border rounded-4">
+		<div class="col-14">
+
+	<h2>Bem-vindos!</h2>
+	<p>
+		"Estamos muito felizes em tê-lo aqui.
+		Nossa loja é o seu destino definitivo para bolsas que combinam estilo, qualidade e funcionalidade.
+		Cada peça foi cuidadosamente selecionada para atender às suas necessidades e expressar sua personalidade única.
+	   Explore nossa Galeria e descubra bolsas que não apenas complementam seu visual, mas também tornam cada momento ainda mais especial.
+
+	   Se precisar de ajuda, nossa equipe está sempre à disposição para ajudá-lo a encontrar a bolsa perfeita.
+	   Sinta-se à vontade para navegar, se inspirar e, claro, aproveitar a sua experiência de compras!
+
+	</p>
+	</div>
+	</div>
+</article>
+
+
+<div class="container">
+<div id="carouselExampleDark" class="carousel slide carousel-dark" data-bs-ride="carousel">
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner" style="height: 15em;">
+	  <div class="carousel-item h-100 active" style="background-image: url(img/ladytmj.png); background-size: contain; background-repeat: no-repeat; background-position: center;">
+		<div class="carousel-caption d-none d-md-block">
+
+
+		</div>
+	  </div>
+	  <div class="carousel-item h-100 active" style="background-image: url(img/motobolsa.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+		<div class="carousel-caption d-none d-md-block">
+
+		</div>
+	  </div>
+	  <div class="carousel-item h-100 active" style="background-image: url(img/download.jpeg); background-size: contain; background-repeat: no-repeat; background-position: center;">
+		<div class="carousel-caption d-none d-md-block">
+
+		</div>
+	  </div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Next</span>
+	</button>
+  </div>
+</div>
+
+
+<section class="container-fluid  mt-2  rounded-4">
+	<div class="row m-1 p-3 border rounded-4">
+		<div class="col-12 ">
+			<table class="table table-striped table-hover">
+				<h2>Edições de Bolsas Renomadas (até 2018)</h2>
+                    <tr><td class="text-center">1984</td><td class="text-center" >Birkin</td></tr>
+                    <tr><td class="text-center">1921</td><td class="text-center" >Chanel No.5 Handbag</td></tr>
+                    <tr><td class="text-center">1930</td><td class="text-center" >Louis Vuitton Speedy</td></tr>
+                    <tr><td class="text-center">2015</td><td class="text-center" >Gucci Dionysus</td></tr>
+                    <tr><td class="text-center">1997</td><td class="text-center" >Fendi Baguette</td></tr>
+                    <tr><td class="text-center">1984</td><td class="text-center" >Prada Nylon Backpack</td></tr>
+                    <tr><td class="text-center">2010</td><td class="text-center" >Celine Luggage Bag</td></tr>
+                    <tr><td class="text-center">2000</td><td class="text-center" > Dior Saddle Bag</td></tr>
+                    <tr><td class="text-center">2001</td><td class="text-center" > Balenciaga City Bag</td></tr>
+                    <tr><td class="text-center">2015</td><td class="text-center" >Coach Swagger Bag</td></tr>
+                    <tr><td class="text-center">2013</td><td class="text-center" >YSL Kate Bag</td></tr>
+                    <tr><td class="text-center">2016</td><td class="text-center" > Michael Kors Mercer</td></tr>
+                    <tr><td class="text-center">2010</td><td class="text-center" >Mulberry Alexa</td></tr>
+                    <tr><td class="text-center">2010</td><td class="text-center" >Valentino Rockstud Bag</td></tr>
+                    <tr><td class="text-center">2015</td><td class="text-center" > Chloé Drew Bag</td></tr>
+                    <tr><td class="text-center">2010</td><td class="text-center" > Givenchy Antigona</td></tr>
+                    <tr><td class="text-center">2015</td><td class="text-center" >Loewe Puzzle Bag</td></tr>
+                    <tr><td class="text-center">2009</td><td class="text-center" >Salvatore Ferragamo Vara</td></tr>
+                    <tr><td class="text-center">2015</td><td class="text-center" >Tory Burch Perry Tote</td></tr>
+                    <tr><td class="text-center">2018</td><td class="text-center" >Jacquemus Le Chiquito	</td></tr>
+                    <tr><td class="text-center">2018</td><td class="text-center" >Bottega Veneta Pouch</td></tr>
+				</table>
+</section>
+<h1 id="galeria" class="ps-3 pt-3">Galeria das Bolsas</h1>
+<div class="card-group mx-2 mt-2">
+    <div class="card">
+        <div class="card-body">
+            <img  class="card-img-top" src='img/chanel255.avif' alt="Chanel 2.55">
+                <h2 class="card-title">Chanel 2.55</h2>
+                <p class="card-text" >Criada por Coco Chanel em 1955, a 2.55 é uma bolsa clássica, famosa por sua alça de corrente e design
+                    sofisticado. É um símbolo de elegância e atemporalidade, disponível em vários materiais e cores.</p>
+					<a href="https://www.chanel.com/br/moda/2-55/c/1x3x15x1/bolsa/" target="_blank"><button type="button" class="btn btn-padrao" data-bs-toggle="popover" >Saiba Mais</button></a>              
+        </div>
+        </div>
+    <div  class="card">
+                <div class="card-body">             
+            <img  class="card-img-top" src='img/lvgm.avif' alt="Maradona">
+            <h2 class="card-title"> Louis Vuitton Neverfull</h2>
+                <p class="card-text">Esta tote bag é conhecida por sua praticidade e versatilidade. Com um design espaçoso, é perfeita para o dia a
+                    dia e vem em diferentes tamanhos e estampas, incluindo o icônico monograma da marca.</p>
+					<a href="https://br.louisvuitton.com/por-br/produtos/neverfull-gm-damier-ebene-nvprod5350105v/N40597" target="_blank"><button type="button" class="btn btn-padrao" data-bs-toggle="popover" >Saiba Mais</button></a>
+            </div>
+        </div>
+
+            <div class="card">
+                <div class="card-body"> 
+          <img  class="card-img-top" src='img/dior.jpg' alt="Dior Saddle Bag">
+          <h2 class="card-title">Dior Saddle Bag</h2>  
+                <p class="card-text">Reintroduzida por Kim Jones, a Saddle Bag é um modelo único que remete aos anos 2000. Com seu formato curvo, ela
+                    se tornou um item de moda desejado, especialmente entre celebridades e influenciadores.</p>
+					<a href="https://www.bolsasdegrife.com.br/comprar/bolsa-dior-saddle-bag-ferragem-dourada-preta/media-preta/1114" target="_blank"><button type="button" class="btn btn-padrao" data-bs-toggle="popover" >Saiba Mais</button></a>
+    </div>
+   </div>
+
+            <div class="card">
+                <div class="card-body"> 
+             <img  class="card-img-top" src='img/prada.avif' alt="Prada Nylon Backpack">
+             <h2 class="card-title" >Prada Nylon Backpack</h2>
+                    <p class="card-text">A mochila de nylon da Prada, lançada na década de 1980, combina praticidade com estilo. Sua simplicidade e
+                        material leve tornaram-na popular, sendo uma escolha favorita entre fashionistas.</p>
+						<a href="https://www.prada.com/ww/en/womens/bags/backpacks-and-belt-bags/c/10063EU" target="_blank"><button type="button" class="btn btn-padrao" data-bs-toggle="popover" >Saiba Mais</button></a>
+                </div>
+            </div>
+    <div class="card">
+                <div class="card-body">
+            <img  class="card-img-top" src='img/ggdion.webp' alt="Gucci Dionysus">
+            <h2 class="card-title">Gucci Dionysus</h2>
+            <p  class="card-text">Com um design distinto que inclui uma fivela em forma de cabeça de tigre, a Dionysus é uma bolsa elegante e
+                moderna. O nome remete ao deus grego Dionísio, simbolizando a conexão da Gucci com a mitologia e o luxo.</p>
+				<a href="https://www.gucci.com/us/en/st/capsule/dionysus-collection?srsltid=AfmBOopVeJ5yQ5oqUfppmEabFZs2yozoXdIquqnlpoudDkCMt1KpCl1O" target="_blank"><button type="button" class="btn btn-padrao" data-bs-toggle="popover" >Saiba Mais</button></a>
+        </div>
+     </div>
+   </div>
+    </div>
+</div>
+
+
+<!-- Modais -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Saber Mais Sobre </h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			link: https://www.chanel.com/br/moda/2-55/c/1x3x15x1/bolsa/
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-padrao" data-bs-dismiss="modal">Fechar</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+
+ <!--Fim dos Modais-->
+<!-- Offcanvas-->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="exemplooffcanvas" aria-labelledby="exemplooffcanvas">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Fale Conosco</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="card mt-3 mb-3">
+		<div class="card-body">
+			<form action="processar_formulario.php" method="post">
+				<label class="form-label"for="nome">Nome:</label>
+				<input type="text" class="form-control" id="nome" name="nome" required><br><br>
+
+				<label class="form-label"for="email">E-mail:</label>
+				<input type="email" class="form-control" id="email" name="email" required><br><br>
+
+				<label class="form-label"for="senha">Senha:</label>
+				<input type="password" class="form-control" id="senha" name="senha" required><br><br>
+
+				<label class="form-label"for="celular">Celular:</label>
+				<input type="tel" class="form-control" id="celular" name="celular" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" placeholder="(99) 99999-9999"><br><br>
+
+				<label class="form-label"for="data">Data:</label>
+				<input type="date" class="form-control" id="data" name="data" required><br><br>
+
+				<label class="form-label"for="aulas">Bolsas a adicionar:</label>
+				<input type="number" class="form-control" id="aulas" name="aulas" required><br><br>
+
+
+				<label>Gênero:</label>
+				<input class="form-check-input" type="radio" id="feminino" name="genero" value="Feminino" required>
+				<label class="form-label"for="feminino">Feminino</label>
+				<input class="form-check-input" type="radio" id="masculino" name="genero" value="Masculino" required>
+				<label class="form-label"for="masculino">Masculino</label><br><br>
+
+					<label class="form-label"for="observacoes">Opniões e Bolsas a adicionar:</label><br>
+					<textarea class="form-control" id="observacoes" name="observacoes" rows="4" cols="50"></textarea><br><br>
+				<input class="btn btn-padrao" type="submit" value="Enviar">
+				<a href="index_bootstrap.html" class="btn btn-danger">Voltar</a>
+			</form>
+		</div>
+	</div>
+  </div>
+</div>
+<!--Fim Offcanvas-->
+
+<!--Biblioteca Popper-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<!--Fim Biblioteca Popper-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+<!-- Script para acionar Popover-->
+<script>
+	var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+	var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+	  return new bootstrap.Popover(popoverTriggerEl)
+	})
+const inputCheck = document.querySelector("#modo-noturno");
+const elemento = document.querySelector("body");
+inputCheck.addEventListener('click', () => {
+	const modo = inputCheck.checked ? 'dark' : 'light'
+	elemento.setAttribute("data-bs-theme", modo);
+})
+</script>
+</body>
+</html>
